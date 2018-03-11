@@ -1,0 +1,47 @@
+{
+  "name": "cirrax-pypolicydspf",
+  "version": "0.0.0",
+  "author": "Cirrax GmbH",
+  "license": "GPL-3.0",
+  "summary": "A module to configure python-postfix-policyd-spf",
+  "source": "https://github.com/cirrax/puppet-pypolicydspf",
+  "project_page": "https://github.com/cirrax/puppet-pypolicydspf",
+  "issues_url": "https://github.com/cirrax/puppet-pypolicydspf/issues",
+  "tags": [
+    "pypolicydspf",
+    "spf",
+    "python-postfix-policyd-spf",
+    "mta",
+    "mail",
+    "email",
+    "postfix"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=4.0.0 < 6.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.2.0 < 5.0.0"
+    },
+    {
+      "name": "puppetlabs/inifile",
+      "version_requirement": ">= 2.0.0 < 3.0.0"
+    }
+  ]
+}
